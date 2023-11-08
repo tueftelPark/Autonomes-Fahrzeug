@@ -19,5 +19,5 @@ void loop() {
   digitalWrite(LinkerMotorRueckwarts, HIGH);
   digitalWrite(RechterMotorRueckwaerts, LOW);
   digitalWrite(RechterMotorVorwaerts, HIGH);
-
+ 
 }

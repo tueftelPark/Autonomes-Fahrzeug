@@ -8,7 +8,7 @@
 
 #include <Servo.h>
 
-const uint8_t = 3;
+const uint8_t servoMotor = 3;
 
 Servo ServoMotor;
 

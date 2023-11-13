@@ -10,10 +10,15 @@ void setup() {
 
   pinMode(LinkerMotorVorwaerts, OUTPUT);
   pinMode(LinkerMotorRueckwaerts, OUTPUT);
+  
+  // TODO: Erweitere hier den Code für den rechten Motor
+  
 }
 
 void loop() {
   digitalWrite(LinkerMotorVorwaerts, HIGH);
   digitalWrite(LinkerMotorRueckwaerts, LOW);
+  
+  // TODO: Erweitere hier den Code für den rechten Motor
 
 }

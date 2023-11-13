@@ -14,7 +14,7 @@ Servo ServoMotor;
 
 void setup()
 {
-  ServoMotor.attach(ServoMotor);
+  ServoMotor.attach(servoMotor);
 }
 
 void loop()
@@ -23,3 +23,4 @@ void loop()
   delay(1000);
   ServoMotor.write(90);
 delay(1000);
+}

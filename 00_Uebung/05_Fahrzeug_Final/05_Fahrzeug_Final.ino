@@ -21,11 +21,11 @@ Steuerung der Motoren erfolgt über die Datei MotorSteuerung.cpp. Die Header-Dat
 #include "Motorsteuerung.h"
 
 // Veränderbare Variabeln je nach Fahrzeug
-const uint8_t GrenzeDistanz = ??;    // Distanz in cm zum ausweichen
-const uint8_t MaxGrenzeDistanz = ??; // Distanz in cm. In diesem Radius darf sich nichts zum Fahrzeug befinden. Dient als Einstellung für die Spurhaltung
+const uint8_t GrenzeDistanz = ??;    // Distanz in cm zum ausweichen Zwischen 0-200
+const uint8_t MaxGrenzeDistanz = ??; // Distanz in cm. In diesem Radius darf sich nichts zum Fahrzeug befinden. Dient als Einstellung für die Spurhaltung Zwischen 0-100
 
-const uint32_t AusweichZeit = ??;  // Wie lange das Fahrzeug dem Objekt ausweicht bis es wieder gerade aus fahrt
-const uint32_t KorrekturZeit = ??; // Wie lange ein Fahrzeug sich auskorrigiert zu der Seitenspur
+const uint32_t AusweichZeit = ??;  // Wie lange das Fahrzeug dem Objekt ausweicht bis es wieder gerade aus fahrt Zwischen 100-2000
+const uint32_t KorrekturZeit = ??; // Wie lange ein Fahrzeug sich auskorrigiert zu der Seitenspur Zwischen 100-1000
 
 
 
